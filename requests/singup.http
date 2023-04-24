@@ -1,0 +1,19 @@
+POST http://localhost:3333/auth/signup
+Content-Type: application/json
+
+{
+  "email": "oleh.paryshkura3@gmail.com",
+  "password": "very_secure_password"
+}
+
+###
+
+POST http://localhost:3333/auth/signin
+Content-Type: application/json
+
+{
+  "email": "oleh.paryshkura@gmail.com",
+  "password": "very_secure_password"
+}
+
+###
